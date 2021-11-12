@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-container {
+    background:url(../images/banner.jpg) no-repeat center/cover;
+	width: 100%;
+    min-height: 110vh;
+    position: relative;
+    overflow-y: hidden;
+}
+.nav-menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    margin: 0 auto;
+    min-height:  60px;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+.nav-menu-txt {
+    display: inline-flex;
+    width: 1200px;
+    padding: 20px 25px;
+    margin: 0 auto;
+}
+.logo img {
+    width: 180px;
+    height: 61px;
+}
+.nav-menu-txt .menu-list {
+    display: inline-flex;
+    padding: 25px 0;
+    padding-left: 30px;
+    background-color: #000;
+}
+.menu-list li {
+    list-style: none;
+}
+.menu-list a {
+    text-decoration: none;
+    margin-left: 13px;
+    font-size: 18px;
+    color: #fff;
+}
+.menu-list a:hover {
+    text-decoration: underline #bb3413;
+    color: #bb3413;
+}
+.menu-lis a:active {
+    color: #ff643f;
+}
+.nav-menu-icon {
+    display: inline-flex;
+    padding-top: 20px;
+}
+.nav-menu-icon .open-bar {
+    position: absolute;
+    right: 20px;
+    visibility: hidden;
+
+}
+.nav-menu-icon .close-bar {
+    position: absolute;
+    right: 20px;
+    visibility: hidden;
+}
+.nav-menu-txt.active .open-bar {
+    visibility: hidden;
+}
+.nav-menu-txt.active .close-bar {
+    visibility: visible;
+}
+.menu-list {
+    transition: all 1.3s;
+}

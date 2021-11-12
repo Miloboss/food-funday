@@ -1,0 +1,1 @@
+.anim1 p{animation-name:circle;animation:circle 1s infinite forwards}@keyframes circle{0%{margin-top:15px}25%{margin-top:30px}50%{margin-top:45px}75%{margin-top:60px}100%{margin-top:75px}}

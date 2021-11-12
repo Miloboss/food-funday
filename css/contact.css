@@ -1,0 +1,108 @@
+.contact-container {
+    background-image: url('../images/footer_background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+.co-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.co-logo img {
+    width: 230px;
+    height: 60px;
+}
+.co-ab {
+    color: #fff;
+    width: 250px;
+}
+.co-ca-txt h2 {
+    color: rgb(216, 88, 3);
+}
+.co-ab p {
+    text-align: justify;
+}
+.co-txt {
+    display: flex;
+    justify-content: center;
+}
+.co-1 {
+    display: flex;
+}
+.co-2 {
+    display: flex;
+}
+.co-3 {
+    display: flex;
+}
+.co-ab h2 {
+    padding: 20px 0;
+    color: rgb(216, 88, 3);
+}
+.co-ca-txt {
+    padding: 20px 0;
+}
+.loc, .ph, .em {
+    padding-right: 10px;
+}
+.loc-txt, .ph-txt, .em-txt {
+    color: #fff;
+}
+.co-op h2 {
+    padding: 20px 0;
+    color: rgb(216, 88, 3);
+}
+.op-1 h3 {
+    color: #fff;
+}
+.op-1 p {
+    padding: 5px;
+    color: rgb(143, 143, 143);
+}
+.op-2 h3 {
+    color: #fff;
+}
+.op-2 p {
+    padding: 5px;
+    color: rgb(143, 143, 143);
+}
+.co-ab, .co-ca {
+    padding-right: 70px;
+}
+.co-ab h2 {
+    font-family: "Brush Script MT", cursive;
+}
+.co-ca-txt h2 {
+    font-family: "Brush Script MT", cursive;
+}
+.co-op h2 {
+    font-family: "Brush Script MT", cursive;
+}
+.co-1 {
+    padding-bottom: 10px;
+}
+.co-2 {
+    padding-bottom: 10px;
+}
+.loc-txt p {
+    font-family: 'Times New Roman', serif;
+}
+.ph-txt p {
+    font-family: 'Times New Roman', serif;
+}
+.em-txt p {
+    font-family: 'Times New Roman', serif;
+}
+.co-ab p {
+    font-family: 'Times New Roman', serif;
+    font-size: 18px
+}
+.co-txt {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.co-ab {
+    margin-right: 60px;
+}

@@ -1,0 +1,80 @@
+.ga-container {
+    width: 100%;
+    min-height: 100%;
+}
+.ga-txt {
+    padding-top: 50px;
+    text-align: center;
+}
+.ga-txt h2 {
+    font-size: 38px;
+    padding-bottom: 20px;
+    color: #f15831;
+    font-weight: 1000;
+    font-family: "Brush Script MT", cursive;
+}
+.ga-txt p {
+    font-size: 20px;
+}
+.ga-img {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.A1 {
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.A01 img {
+    width: 610px;
+    height: 356px;
+}
+.A02 img {
+    width: 305px;
+    height: 356px;
+}
+.B1 {
+    display: flex;
+    justify-content: space-between;
+}
+.B01 img {
+    width: 305px;
+    height: 356px;
+}
+.B02 img {
+    width: 305px;
+    height: 356px;
+}
+.B03 img {
+    width: 305px;
+    height: 356px;
+}
+.C1 {
+    display: flex;
+    justify-content: space-between;
+}
+.C01 img {
+    width: 610px;
+    height: 356px;
+}
+.C02 img {
+    width: 305px;
+    height: 356px;
+}
+.D1 {
+    display: flex;
+    justify-content: space-between;
+}
+.D01 img {
+    width: 305px;
+    height: 356px;
+}
+.D02 img {
+    width: 305px;
+    height: 356px;
+}
+.D03 img {
+    width: 305px;
+    height: 356px;
+}
